@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 700" width="600" height="700">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EFF6FF"/>
+      <stop offset="50%" stop-color="#DBEAFE"/>
+      <stop offset="100%" stop-color="#BFDBFE"/>
+    </linearGradient>
+    <linearGradient id="coatGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#F8FAFC"/>
+    </linearGradient>
+    <linearGradient id="skinGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ECC695"/>
+      <stop offset="100%" stop-color="#D9A873"/>
+    </linearGradient>
+    <filter id="cardShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#0F172A" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+  <rect width="600" height="700" fill="url(#bgGrad)"/>
+  <g opacity="0.12" fill="#2563EB">
+    <rect x="40" y="70" width="60" height="20" rx="4"/>
+    <rect x="60" y="50" width="20" height="60" rx="4"/>
+    <rect x="480" y="130" width="70" height="22" rx="6"/>
+    <rect x="504" y="106" width="22" height="70" rx="6"/>
+  </g>
+  <path d="M110 700 L110 530 C110 440, 175 400, 235 390 L235 450 L300 510 L365 450 L365 390 C425 400, 490 440, 490 530 L490 700 Z" fill="url(#coatGrad)" filter="url(#cardShadow)"/>
+  <polygon points="250,390 350,390 300,480" fill="#2563EB"/>
+  <polygon points="290,390 310,390 305,475 300,480 295,475" fill="#1D4ED8"/>
+  <polygon points="235,390 300,510 275,510 225,410" fill="#E2E8F0"/>
+  <polygon points="365,390 300,510 325,510 375,410" fill="#E2E8F0"/>
+  <rect x="270" y="310" width="60" height="90" rx="10" fill="url(#skinGrad)"/>
+  <ellipse cx="300" cy="260" rx="75" ry="90" fill="url(#skinGrad)"/>
+  <path d="M220 240 C215 170, 260 150, 300 150 C340 150, 385 170, 380 240 C365 180, 340 170, 300 170 C260 170, 235 180, 220 240 Z" fill="#1E293B"/>
+  <rect x="245" y="235" width="45" height="32" rx="8" fill="none" stroke="#1E293B" stroke-width="4"/>
+  <rect x="310" y="235" width="45" height="32" rx="8" fill="none" stroke="#1E293B" stroke-width="4"/>
+  <line x1="290" y1="250" x2="310" y2="250" stroke="#1E293B" stroke-width="4"/>
+  <line x1="225" y1="245" x2="245" y2="248" stroke="#1E293B" stroke-width="3"/>
+  <line x1="355" y1="248" x2="375" y2="245" stroke="#1E293B" stroke-width="3"/>
+  <circle cx="268" cy="251" r="5" fill="#1E293B"/>
+  <circle cx="332" cy="251" r="5" fill="#1E293B"/>
+  <path d="M275 300 Q300 320 325 300" fill="none" stroke="#9A3412" stroke-width="4" stroke-linecap="round"/>
+  <path d="M220 420 C215 530, 265 550, 280 530 L280 560" fill="none" stroke="#334155" stroke-width="8" stroke-linecap="round"/>
+  <path d="M380 420 C385 530, 335 550, 320 530" fill="none" stroke="#334155" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="280" cy="570" r="18" fill="#94A3B8" stroke="#334155" stroke-width="4"/>
+  <circle cx="280" cy="570" r="10" fill="#2563EB"/>
+  <g transform="translate(140, 595)">
+    <rect width="320" height="68" rx="34" fill="#FFFFFF" filter="url(#cardShadow)"/>
+    <circle cx="40" cy="34" r="20" fill="#DCFCE7"/>
+    <path d="M30 34 L37 41 L50 27" stroke="#16A34A" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <text x="72" y="30" font-family="'Poppins', system-ui, sans-serif" font-weight="700" font-size="15" fill="#0F172A">Dr. Rajesh Sharma</text>
+    <text x="72" y="49" font-family="'Inter', system-ui, sans-serif" font-weight="600" font-size="12" fill="#2563EB">MBBS, MD (Internal Medicine)</text>
+  </g>
+</svg>

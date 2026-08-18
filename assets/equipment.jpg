@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <linearGradient id="eqgrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F8FAFC"/>
+      <stop offset="100%" stop-color="#E2E8F0"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#eqgrad)"/>
+  <!-- Modern Medical Diagnostic Equipment -->
+  <rect x="250" y="140" width="300" height="220" rx="16" fill="#0F172A"/>
+  <!-- ECG Display Screen -->
+  <rect x="270" y="160" width="260" height="150" rx="8" fill="#022C22"/>
+  <!-- ECG Sine Waves -->
+  <path d="M280 235 L320 235 L330 200 L340 270 L350 180 L360 250 L370 235 L430 235 L440 200 L450 270 L460 180 L470 250 L480 235 L520 235" stroke="#10B981" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+  <!-- Monitor Data -->
+  <text x="285" y="185" font-family="monospace" font-weight="700" font-size="14" fill="#34D399">HR: 72 bpm</text>
+  <text x="440" y="185" font-family="monospace" font-weight="700" font-size="14" fill="#38BDF8">BP: 120/80</text>
+  <!-- Control Buttons -->
+  <circle cx="310" cy="335" r="8" fill="#38BDF8"/>
+  <circle cx="340" cy="335" r="8" fill="#10B981"/>
+  <circle cx="370" cy="335" r="8" fill="#F59E0B"/>
+  <!-- Equipment Stand -->
+  <rect x="380" y="360" width="40" height="150" fill="#64748B"/>
+  <polygon points="300,510 500,510 520,540 280,540" fill="#334155"/>
+  <!-- Badge -->
+  <g transform="translate(480, 70)">
+    <rect width="270" height="60" rx="30" fill="#FFFFFF" filter="drop-shadow(0 4px 6px rgba(0,0,0,0.06))"/>
+    <circle cx="32" cy="30" r="18" fill="#DCFCE7"/>
+    <path d="M25 30 L30 35 L40 24" stroke="#16A34A" stroke-width="3" fill="none"/>
+    <text x="60" y="28" font-family="'Poppins', sans-serif" font-weight="600" font-size="13" fill="#0F172A">Advanced Diagnostics</text>
+    <text x="60" y="44" font-family="'Inter', sans-serif" font-size="11" fill="#64748B">12-Lead ECG & Rapid Labs</text>
+  </g>
+</svg>
